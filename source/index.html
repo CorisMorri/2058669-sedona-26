@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body class="page__body">
     <header class="main-header">
@@ -10,46 +12,46 @@
         <img src="img/logotype-phone.svg"
         height="96px"  width="185px" alt="Туристический городок «Седона».">
       </a>
+      <nav class="main-nav">
+        <button class="main-nav__toggle" type="button">
+          <span class="visually-hidden">Открыть меню</span>
+        </button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list site-list">
+            <li class="site-list__item site-list__item--current site-list-item">
+              <a class="site-list-item__link">
+                Главная
+              </a>
+            </li>
+            <li class="site-list__item site-list-item">
+              <a class="site-list-item__link" href="catalog.html">
+                Фото и видео
+              </a>
+            </li>
+            <li class="site-list__item site-list-item">
+              <a class="site-list-item__link" href="form.html">
+                Форма отзыва
+              </a>
+            </li>
+            <li class="site-list__item site-list-item">
+              <a class="site-list-item__link" href="https://htmlacademy.ru">
+                HTML ACADEMY
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
-    <nav class="main-nav">
-      <button class="main-nav__toggle" type="button">
-        <span class="visually-hidden">Открыть меню</span>
-      </button>
-      <div class="main-nav__wrapper">
-        <ul class="main-nav__list site-list">
-          <li class="site-list__item site-list__item--current">
-            <a>
-              Главная
-            </a>
-          </li>
-          <li class="site-list__item">
-            <a href="catalog.html">
-              Фото и видео
-            </a>
-          </li>
-          <li class="site-list__item">
-            <a href="form.html">
-              Форма отзыва
-            </a>
-          </li>
-          <li class="site-list__item">
-            <a href="https://htmlacademy.ru">
-              HTML ACADEMY
-            </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
     <main class="main-container">
       <header class="intro">
-        <div class="intro--background-wrapper">
+        <div class="intro__wrapper intro-background-wrapper">
         <h1 class="visually-hidden">Туристический городок Седона</h1>
-          <img class="intro__logo" src="img/welcome-sedona-text-logotype.svg" width="282px" height="214px" alt="Добро пожаловать в Седону">
+          <img class="intro-background-wrapper__logo" src="img/welcome-sedona-text-logotype.svg" width="282px" height="214px" alt="Добро пожаловать в Седону">
         </div>
-        <div class="intro--background-subwrapper">
+        <div class=" intro__wrapper intro-background-subwrapper">
           <h2 class="visually-hidden">Преимущества Седоны</h2>
-          <p class="intro__title">Седона — небольшой<br> городок в Аризоне,<br> заслуживающий большего!</p>
-          <p class="intro__text">Рассмотрим 5 причин, по которым<br> Седона круче, чем Гранд Каньон!</p>
+          <p class="intro-background-subwrapper__title">Седона — небольшой<br> городок в Аризоне,<br> заслуживающий большего!</p>
+          <p class="intro-background-subwrapper__text">Рассмотрим 5 причин, по которым<br> Седона круче, чем Гранд Каньон!</p>
         </div>
       </header>
 
@@ -76,8 +78,8 @@
                 <p class="advantages__description">Всегда заказывайте топовый фирменный<br> бургер, вы не разочаруетесь!</p>
               </li>
 
-              <li class="advantages_item advantages__item--image-souvenirs">
-                <h2 class="advantages_title">Сувениры</h2>
+              <li class="advantages__item advantages__item--image-souvenirs">
+                <h2 class="advantages__title">Сувениры</h2>
                 <p class="advantages__description">Не только китайского, но и<br> настоящего местного производства!</p>
               </li>
 
